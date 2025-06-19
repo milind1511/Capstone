@@ -14,10 +14,10 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.get('/', (req, res) => {
-  res.send('API is running');
-});
-
-// TODO: Add routes for movies, theaters, bookings, users
+app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/movies', require('./routes/movieRoutes'));
+app.use('/api/theaters', require('./routes/theaterRoutes'));
+app.use('/api/bookings', require('./routes/bookingRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
