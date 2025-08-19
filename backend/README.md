@@ -198,6 +198,10 @@ POST   /search/advanced        # Advanced search with complex filters
 | `PORT` | Server port | No (default: 5000) |
 | `MONGODB_URI` | MongoDB connection string | Yes |
 | `JWT_SECRET` | JWT secret key | Yes |
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
 | `JWT_EXPIRE` | JWT expiration time | No (default: 30d) |
 | `SENDGRID_API_KEY` | SendGrid API key | Yes |
 | `FROM_EMAIL` | Sender email address | Yes |
