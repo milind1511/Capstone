@@ -202,13 +202,6 @@ POST   /search/advanced        # Advanced search with complex filters
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
-| `JWT_EXPIRE` | JWT expiration time | No (default: 30d) |
-| `SENDGRID_API_KEY` | SendGrid API key | Yes |
-| `FROM_EMAIL` | Sender email address | Yes |
-| `GOOGLE_MAPS_API_KEY` | Google Maps API key | Yes |
-| `STRIPE_SECRET_KEY` | Stripe secret key | Yes |
-| `STRIPE_WEBHOOK_SECRET` | Stripe webhook secret | Yes |
-| `CLIENT_URL` | Frontend application URL | Yes |
 
 ## Security Features
 
